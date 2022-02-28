@@ -36,8 +36,7 @@ export const DataProvider = ({ children }) => {
         isLoading,
         posts,
         setposts,
-      }}
-    >
+      }}>
       {children}
     </DataContext.Provider>
   );
